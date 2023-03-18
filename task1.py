@@ -1,6 +1,5 @@
 import requests
-from pprint import pprint
-from operator import itemgetter
+
 url = "https://akabab.github.io/superhero-api/api//all.json"
 
 response = requests.get(url)
